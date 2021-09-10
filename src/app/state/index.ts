@@ -1,4 +1,4 @@
-import {selectedTiemsReducer} from "./selectedItems/selected-tiems.reducer";
+import {selectedItemsReducer} from "./selectedItems/selected-tiems.reducer";
 
 export interface AppState {
   items: any,
@@ -9,6 +9,6 @@ export interface AppState {
 export const reducers = {
   items: () => {},
   filters: () => {},
-  selectedItems: selectedTiemsReducer
+  selectedItems: selectedItemsReducer
 
 };
